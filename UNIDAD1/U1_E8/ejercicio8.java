@@ -12,7 +12,7 @@ public class ejercicio8 {
         boolean correcto = false;
         int edad;
 
-        // loop para validar que el nombre no esté vacío y solo contenga letras
+        // loop para validar que el nombre no esté vacío y solo tenga letras
         do {
             System.out.println("Nombre: ");
             nombre = leer.nextLine();
@@ -20,7 +20,9 @@ public class ejercicio8 {
             // verificar si el nombre está vacío
             correcto = valida.strVacio(nombre);
 
-        } while (!correcto || !valida.soloLetras(nombre)); // seguir pidiendo si el nombre está vacío o contiene caracteres no válidos
+            if (correcto) System.out.println("El nombre no puede estar en blanco!!");
+
+        } while (correcto || !valida.soloLetras(nombre)); // seguir pidiendo si el nombre está vacío o contiene caracteres no válidos
 
 
         // loop para validar que la edad sea un número positivo
