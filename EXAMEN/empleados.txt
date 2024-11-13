@@ -1,0 +1,5 @@
+2001,Maria,Teresa,Gerente,9500.00
+2002,Alberto,Gutierrez,Conserje,6350.00
+2003,Guadalupe,Quintero,Vendedora,5400.00
+2004,Sofia,Perez,CEO,99999.99
+2005,Justin,Bieber,Cantante,500.30
