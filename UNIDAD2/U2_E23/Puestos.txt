@@ -4,3 +4,5 @@
 4,guardia,3500
 5,administrativo,2800
 6,Electricista,2500
+7,cajero,1850
+8,portero,2500
